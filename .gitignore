@@ -1,0 +1,109 @@
+# =========================
+# Node.js (cho cả frontend và backend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production
+.env.production.local
+
+# =========================
+# Build output (frontend + backend)
+# =========================
+dist/
+build/
+.cache/
+.next/
+out/
+.tmp/
+temp/
+coverage/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Misc
+# =========================
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# =========================
+# Frontend specific (React/Vue/Angular)
+# =========================
+# React/Vite/Vue/Nuxt build cache
+*.tsbuildinfo
+.cache/
+.vite/
+vite.config.ts.timestamp-*
+node_modules/
+dist/
+public/build/
+coverage/
+*.local
+
+# Angular specific
+.angular/
+.angular/cache/
+
+# =========================
+# Backend specific (Express/NestJS)
+# =========================
+# TypeScript build output
+/dist
+/out
+/build
+
+# Prisma / ORM migrations
+prisma/migrations/dev.db
+*.sqlite
+*.db
+
+# =========================
+# Docker / Deployment
+# =========================
+docker-compose.override.yml
+.docker/
+*.pid
+*.seed
