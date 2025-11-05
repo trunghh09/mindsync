@@ -99,6 +99,7 @@ coverage/
 prisma/migrations/dev.db
 *.sqlite
 *.db
+/src/generated/prisma
 
 # =========================
 # Docker / Deployment
